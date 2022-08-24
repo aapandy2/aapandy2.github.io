@@ -1,67 +1,71 @@
-body {
-    background-color: white;
-    font-family: sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", "sans-serif";
+    box-sizing: "border-box";
+}
+
+.header{
+    height: 20vh;
+    width: 80%;
+    padding: 0 10% 0 10%;
+    background: white;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 140px;
+}
+
+.pic{
+    float: right;
+    width: 30%;
+}
+
+.nav-links{
+    padding: 28px 0;
+}
+
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 0;
+    position: relative;
+}
+
+.nav-links li a::after{
+    content: '';
+    background: #ff3d00;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.nav-links li a:hover::after{
+    width: 100%;
+}
+
+.name{
+    color: black;
     font-size: 200%;
 }
 
-a {
-    text-decoration: underline;
-    color: black;
-}
-
-a:hover {
-    text-decoration: underline;
-    /*color: #f58025;*/
-}
-
-h1 {
-    margin: 0;
-}
-
-h2 {
-    margin: 0;
-    font-weight: 400;
-}
-
-h3 {
-    margin: 0;
-}
-
-#container {
-    background-color: white;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    color: black;
-}
-
-#content {
-    padding: 100px 10px 10px 10px;
-}
-
-#nav {
-    width: auto;
-    float: right;
-}
-
-#nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#nav .selected {
-    font-weight: bold;
-}
-
-#main {
-    width: auto;
-    float: left;
-}
-
-#footer {
-    clear: both;
-    padding: 100px;
-    background-color: white;
-    color: black;
-    text-align: right;
+.content{
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
