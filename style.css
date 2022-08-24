@@ -44,7 +44,7 @@ nav{
 
 .nav-links li a::after{
     content: '';
-    background: #ff3d00;
+    background: #e77500;
     width: 0;
     height: 2px;
     position: absolute;
@@ -79,4 +79,12 @@ nav{
 
 .about{
     font-size: 125%;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: #e77500;
 }
