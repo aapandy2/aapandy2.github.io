@@ -81,6 +81,14 @@ nav{
     font-size: 125%;
 }
 
+.pub-list{
+    font-size: 150%;
+}
+
+.pub-list li{
+    margin-bottom:2%;
+}
+
 a{
     color: black;
 }
