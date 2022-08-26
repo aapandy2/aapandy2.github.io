@@ -66,6 +66,7 @@ nav{
     width: 50%;
     padding-left: 25%;
     padding-right: 25%;
+    font-size: 125%;
 }
 
 .section-title{
@@ -75,14 +76,6 @@ nav{
     text-decoration-color:black;
     text-decoration-thickness:2px;
     text-underline-offset:5px;
-}
-
-.about{
-    font-size: 125%;
-}
-
-.pub-list{
-    font-size: 150%;
 }
 
 .pub-list li{
