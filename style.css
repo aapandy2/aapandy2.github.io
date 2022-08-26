@@ -96,3 +96,65 @@ iframe{
     display: block;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 450px) {
+    .header{
+        height: 20vh;
+        width: 80vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        background: white;
+        position: relative;
+    }
+
+    nav{
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-links{
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 150%;
+    }
+    
+    .nav-links li{
+        display: block;
+    }
+    
+    .nav-links li a{
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 2px;
+        color: black;
+        padding: 0;
+        position: relative;
+    }
+    
+    .nav-links li a::after{
+    }
+    
+    .nav-links li a:hover::after{
+    }
+
+    .pic{
+        float: center;
+        width: 60vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-bottom:2.5vh;
+    }
+
+    .content {
+        font-size: 110%;
+        width: 80vw;
+        padding-top: 1.5vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-bottom: 2.5vh;
+    }
+
+    .pub-list li{
+        margin-bottom:2vh;
+    }
+}
