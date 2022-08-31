@@ -97,6 +97,11 @@ iframe{
     margin: 0 auto;
 }
 
+td {
+    vertical-align: top;
+    font-size: 110%;
+}
+
 @media screen and (max-width: 450px) {
     .header{
         height: 20vh;
