@@ -23,6 +23,8 @@ nav{
     float: right;
     width: 30%;
     padding-left: 5%;
+    min-width: 250px;
+    max-width: 400px;
 }
 
 .nav-links{
@@ -102,7 +104,7 @@ td {
     font-size: 110%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 1000px) {
     .header{
         height: 20vh;
         width: 80vw;
@@ -150,11 +152,13 @@ td {
     }
 
     .pic{
-        float: center;
+        margin: auto;
+        display: block;
         width: 60vw;
         padding-left: 10vw;
         padding-right: 10vw;
-        padding-bottom:2.5vh;
+        padding-bottom: 2.5vh;
+        float: inherit;
     }
 
     .content {
