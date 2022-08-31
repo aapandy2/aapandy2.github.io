@@ -101,7 +101,7 @@ iframe{
 
 td {
     vertical-align: top;
-    font-size: 110%;
+    font-size: 125%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -174,5 +174,10 @@ td {
 
     .pub-list li{
         margin-bottom:2vh;
+    }
+
+    td {
+    vertical-align: top;
+    font-size: 110%;
     }
 }
