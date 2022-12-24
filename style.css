@@ -135,6 +135,7 @@ td {
     }
     
     .nav-links li{
+        margin-bottom: 5px;
         display: block;
     }
     
