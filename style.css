@@ -186,6 +186,10 @@ td {
         margin-bottom:2vh;
     }
 
+    table {
+        border-spacing: 7px 0px;
+    }
+
     td {
     vertical-align: top;
     font-size: 110%;
