@@ -22,7 +22,14 @@
     </div>
 
     <div class="content">
-        <img src="media/pic.webp" class="pic" title="Photo of Alex Pandya" alt="Photo of Alex Pandya">
+		<picture>
+  			<source type="image/webp" srcset="media/pic.webp" />
+			<source type="image/png"  srcset="media/pic.png"  />
+  			<img
+    			src  ="media/pic.webp"
+				title="Photo of Alex Pandya"
+    			alt  ="Photo of Alex Pandya" />
+		</picture>
         <div class="section-title">
             About me
         </div>
