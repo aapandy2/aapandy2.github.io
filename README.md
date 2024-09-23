@@ -37,3 +37,5 @@ Erdos Institute Data Science Boot Camp (_expected Dec. 2024_)
 ## Projects
 
 **TODO**
+
+[Link to test project]({% link test_project.md %})
