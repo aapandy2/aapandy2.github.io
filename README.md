@@ -4,21 +4,21 @@ Hello!  This site is currently under construction.
 
 ## Education
 
-**Princeton University** (2017--2023)
+**Princeton University** (2017--2023)\
 _PhD in Physics_
 
-**University of Illinois at Urbana-Champaign** (2013--2017)
+**University of Illinois at Urbana-Champaign** (2013--2017)\
 _BS in Physics, Minor in Mathematics_
 
 ## Work experience
 
-**Cornell University** (2023--2024)
+**Cornell University** (2023--2024)\
 _Postdoctoral Research Associate_
 
-**Princeton University** (2017--2023)
+**Princeton University** (2017--2023)\
 _NSF Graduate Research Fellow_
 
-**University of Illinois at Urbana-Champaign** (2014--2017)
+**University of Illinois at Urbana-Champaign** (2014--2017)\
 _Undergraduate Researcher_
 
 ## Skills & Certifications
