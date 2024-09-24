@@ -1,5 +1,3 @@
-# About Me
-
 Hello!  This site is currently under construction.
 
 ## Education
