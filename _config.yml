@@ -1,5 +1,5 @@
 title: Alex Pandya
 logo: /media/pic.png
 #description: text below image
-#theme: jekyll-theme-minimal
-remote_theme: fongandrew/hydeout
+theme: jekyll-theme-minimal
+#remote_theme: fongandrew/hydeout
