@@ -77,11 +77,14 @@
       description: Award recognizing "outstanding independent research by an undergraduate" from the University of Illinois Physics Department.
 
 - title: Publications
-  type: map
+  type: nested list
   contents:
-    description: "TODO: hyperlink pubs tab"
+    - title: todo link to pubs
+      items:
+        - item 1
+        - item 2
 
 - title: Lectures, Conferences, & Teaching
-  type: map
+  type: list
   contents:
-    description: "TODO: add description"
+    - I highly value effective science communication, and have worked to develop this skill in the four invited (1 hour) seminars I have given at Bielefeld University (Germany), the Perimeter Institute for Theoretical Physics (Canada), UIUC, and Vanderbilt University. I have also given four conference talks at the American Physical Society April Meeting, and have served as a teaching assistant for five courses (and taught hundreds of students) at Princeton.
