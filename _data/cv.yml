@@ -20,6 +20,7 @@
   type: map
   contents:
     - name: Skills
+      value:
       description:
         - "Quantitative: numerical methods, PDE, linear algebra, probability theory, statistics, regression, classification"
         - "Programming: Python, C, C++, Cython, Mathematica, SQL"
@@ -27,7 +28,7 @@
         - "Platforms: Linux, git, bash, slurm, CMake, Microsoft Office"
         - "Soft skills: science communication, technical project management, interdisciplinary collaboration"
     - name: Certifications
-      description: Erdos Institute Data Science Boot Camp
+      value: Erdos Institute Data Science Boot Camp
 
 - title: Experience
   type: time_table
