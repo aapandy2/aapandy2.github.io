@@ -16,6 +16,19 @@
       institution: University of Illinois at Urbana-Champaign
       year: 2016
 
+- title: Skills & Certifications
+  type: map
+  contents:
+    - name: Skills
+      description:
+        - "Quantitative: numerical methods, PDE, linear algebra, probability theory, statistics, regression, classification"
+        - "Programming: Python, C, C++, Cython, Mathematica, SQL"
+        - "Python libraries: numpy, scipy, matplotlib, pandas, seaborn, scikit-learn, tensorflow/keras"
+        - "Platforms: Linux, git, bash, slurm, CMake, Microsoft Office"
+        - "Soft skills: science communication, technical project management, interdisciplinary collaboration"
+    - name: Certifications
+      description: Erdos Institute Data Science Boot Camp
+
 - title: Experience
   type: time_table
   contents:
@@ -43,10 +56,10 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: SpECTRE
+    - title: <a href="https://spectre-code.org/index.html">SpECTRE</a>
       year: 2023-2024
       description: Worked to develop a dissipative fluid module for the next-generation physics simulation code SpECTRE.
-    - title: symphony
+    - title: <a href="https://github.com/AFD-Illinois/symphony">symphony</a>
       year: 2015-2020
       description: Authored radiation transport coefficient calculator widely used to model black hole accretion flows, including modeling efforts by the Event Horizon Telescope collaboration (published first "photograph" of a black hole in 2019).
 
@@ -62,3 +75,13 @@
     - title: Robert E. Hetrick Outstanding Senior Thesis Award
       year: 2017
       description: Award recognizing "outstanding independent research by an undergraduate" from the University of Illinois Physics Department.
+
+- title: Publications
+  type: map
+  contents:
+    description: "TODO: hyperlink pubs tab"
+
+- title: Lectures, Conferences, & Teaching
+  type: map
+  contents:
+    description: "TODO: add description"
