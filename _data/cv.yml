@@ -21,7 +21,6 @@
   contents:
     - name: Skills
       value:
-      description:
         - "Quantitative: numerical methods, PDE, linear algebra, probability theory, statistics, regression, classification"
         - "Programming: Python, C, C++, Cython, Mathematica, SQL"
         - "Python libraries: numpy, scipy, matplotlib, pandas, seaborn, scikit-learn, tensorflow/keras"
