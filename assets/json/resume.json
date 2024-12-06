@@ -10,81 +10,98 @@
     "location": "",
     "profiles": ""
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Princeton University",
+      "location": "Princeton, NJ",
+      "url": "",
+      "area": "Physics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2017",
+      "endDate": "2023",
+      "score": "",
+      "courses": ""
+    },
+    {
+      "institution": "University of Illinois at Urbana-Champaign",
+      "location": "Urbana, IL",
+      "url": "",
+      "area": "Physics",
+      "studyType": "BS",
+      "startDate": "2013",
+      "endDate": "2016",
+      "score": "",
+      "courses": ""
+    }
+  ],
+  "work": [
+    {
+      "name": "Cornell University",
+      "position": "Postdoctoral Research Associate",
+      "url": "",
+      "startDate": "2023",
+      "endDate": "2024",
+      "summary": "Postdoctoral training in scientific software engineering.",
+      "highlights": ""
+    },
+    {
+      "name": "Erdos Institute",
+      "position": "Data Science Boot Camp",
+      "url": "",
+      "startDate": "",
+      "endDate": "2024",
+      "summary": "Accelerated program for PhDs covering a wide variety of modern data science techniques.",
+      "highlights": ""
+    },
+    {
+      "name": "Princeton University",
+      "position": "NSF Graduate Research Fellow",
+      "url": "",
+      "startDate": "2019",
+      "endDate": "2023",
+      "summary": "Doctoral research in Physics, supported by a competitive national fellowship grant.",
+      "highlights": ""
+    },
+    {
+      "name": "University of Illinois at Urbana-Champaign",
+      "position": "Undergraduate Research Assistant",
+      "url": "",
+      "startDate": "2014",
+      "endDate": "2017",
+      "summary": "Undergraduate research supported by a Lorella M. Jones Research Award.",
+      "highlights": ""
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Kusaka Memorial Prize in Physics",
+      "date": "2023",
+      "awarder": "Princeton University Department of Physics",
+      "url": "",
+      "summary": "Award for 'outstanding performance in research'."
+    },
+    {
+      "title": "NSF Graduate Research Fellowship",
+      "date": "2019-2023",
+      "awarder": "US National Science Foundation",
+      "url": "",
+      "summary": "Competitive national fellowship grant totaling $138,000."
+    },
+    {
+      "title": "Robert E. Hetrick Outstanding Senior Thesis Award",
+      "date": "2017",
+      "awarder": "University of Illinois at Urbana-Champaign Department of Physics",
+      "url": "",
+      "summary": "Award recognizing 'outstanding independent research by an undergraduate'."
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Erdos Institute Data Science Boot Camp",
+      "date": "2024",
+      "issuer": "Erdos Institute",
+      "url": "",
+      "icon": ""
     }
   ],
   "publications": [
