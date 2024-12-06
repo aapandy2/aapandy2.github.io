@@ -17,17 +17,18 @@
       year: 2016
 
 - title: Skills & Certifications
-  type: map
+  type: nested_list
   contents:
-    - name: Skills
-      value:
-        - "Quantitative: numerical methods, PDE, linear algebra, probability theory, statistics, regression, classification"
-        - "Programming: Python, C, C++, Cython, Mathematica, SQL"
-        - "Python libraries: numpy, scipy, matplotlib, pandas, seaborn, scikit-learn, tensorflow/keras"
-        - "Platforms: Linux, git, bash, slurm, CMake, Microsoft Office"
-        - "Soft skills: science communication, technical project management, interdisciplinary collaboration"
-    - name: Certifications
-      value: Erdos Institute Data Science Boot Camp
+    - title: Skills
+      items:
+        - <u>Quantitative:</u> numerical methods, PDE, linear algebra, probability theory, statistics, regression, classification
+        - <u>Programming:</u> Python, C, C++, Cython, Mathematica, SQL
+        - <u>Python libraries:</u> numpy, scipy, matplotlib, pandas, seaborn, scikit-learn, tensorflow/keras
+        - <u>Platforms:</u> Linux, git, bash, slurm, CMake, Microsoft Office
+        - <u>Soft skills:</u> science communication, technical project management, interdisciplinary collaboration
+    - title: Certifications
+      items: 
+        - Erdos Institute Data Science Boot Camp
 
 - title: Experience
   type: time_table
