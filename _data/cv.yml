@@ -77,12 +77,11 @@
       description: Award recognizing "outstanding independent research by an undergraduate" from the University of Illinois Physics Department.
 
 - title: Publications
-  type: nested list
+  type: list
   contents:
-    - title: todo link to pubs
-      items:
-        - item 1
-        - item 2
+    - I have authored <b>8 total publications (7 as lead author)</b> on computational physics in <i>Physical Review, Classical and Quantum Gravity, and The Astrophysical Journal</i>.  Altogether, the articles have <b>over 200 citations</b> (see <a href="https://scholar.google.com/citations?user=XhRfnDkAAAAJ&hl=en">Google Scholar</a>).
+      
+      For more details see the <a href="https://aapandy2.github.io/publications/">Publications</a> page.
 
 - title: Lectures, Conferences, & Teaching
   type: list
