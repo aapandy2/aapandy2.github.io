@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-# About
+### About
 
 Hello and welcome to my site!  I'm Alex Pandya, and I'm a computational physicist by training.  Most recently, I was a postdoctoral researcher in astrophysics at Cornell; before that I did my PhD in Physics at Princeton.  For more on my background, please see my <a href="https://aapandy2.github.io/cv/">CV</a>.
 
