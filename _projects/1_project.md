@@ -2,7 +2,7 @@
 layout: page
 title: Modeling dissipation in relativistic fluid systems
 description:
-img:
+img: assets/img/hydro_project_cover.png
 importance: 1
 category: work
 related_publications: false
