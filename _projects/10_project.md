@@ -27,6 +27,7 @@ A remarkable feature of modern physics is that the same recipe for constructing 
 | Navier-Stokes      | ✔                            | ✘                           | ✔                     |
 | Rel. Euler         | ✔                            | ✔                           | ✘                     |
 | Rel. Navier-Stokes | ✔                            | ✔                           | ✔                     |
+
 <br>
 
 Based on the table, it would seem that the relativistic Navier-Stokes equations should be the model of choice for the aforementioned exotic fluid systems, so long as entropy-generating effects (viscosity, heat conduction) are relevant.  Unfortunately, the story is not so simple, as _"the" relativistic Navier-Stokes equations do not exist_.
