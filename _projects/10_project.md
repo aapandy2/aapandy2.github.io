@@ -27,7 +27,7 @@ A remarkable feature of modern physics is that the same recipe for constructing 
 | Navier-Stokes      | ✔                            | ✘                           | ✔                     |
 | Rel. Euler         | ✔                            | ✔                           | ✘                     |
 | Rel. Navier-Stokes | ✔                            | ✔                           | ✔                     |
-
+<br>
 
 Based on the table, it would seem that the relativistic Navier-Stokes equations should be the model of choice for the aforementioned exotic fluid systems, so long as entropy-generating effects (viscosity, heat conduction) are relevant.  Unfortunately, the story is not so simple, as _"the" relativistic Navier-Stokes equations do not exist_.
 
@@ -50,8 +50,7 @@ My work (done with collaborators Frans Pretorius and Elias Most) sought to be th
 
 ### Numerical exploration of BDNK theory
 
-Paper: <a href="https://arxiv.org/abs/2104.00804">A numerical exploration of first-order relativistic hydrodynamics</a> 
-
+Paper: <a href="https://arxiv.org/abs/2104.00804">A numerical exploration of first-order relativistic hydrodynamics</a> <br>
 Authors: _Alex Pandya, Frans Pretorius_
 
 In this paper, we were the first to numerically solve the BDNK equations in scenarios with variation both in space and time, albeit restricted to "slab" symmetry (variation only in one space dimension) and with simplified microphysics (i.e., the fluid was something like a photon gas wherein the stress-energy tensor is trace-free).
@@ -65,8 +64,7 @@ To briefly summarize the main results, we found:
 
 ### Conservative finite volume method for BDNK theory
 
-Paper: <a href="https://arxiv.org/abs/2201.12317">Conservative finite volume scheme for first-order viscous relativistic hydrodynamics</a>
-
+Paper: <a href="https://arxiv.org/abs/2201.12317">Conservative finite volume scheme for first-order viscous relativistic hydrodynamics</a> <br>
 Authors: _Alex Pandya, Elias R. Most, Frans Pretorius_
 
 This work is the first to develop a numerical method for the BDNK equations which is suitably stable and accurate for supercomputer simulations of neutron stars and other astrophysical systems.  The method builds upon the conservative finite volume method commonly used for the relativistic Euler equations.
@@ -77,8 +75,7 @@ The main results include a detailed description of the numerical scheme as well 
 
 ### BDNK theory with more realistic microphysics
 
-Paper: <a href="https://arxiv.org/abs/2209.09265">Causal, stable first-order viscous relativistic hydrodynamics with ideal gas microphysics</a>
-
+Paper: <a href="https://arxiv.org/abs/2209.09265">Causal, stable first-order viscous relativistic hydrodynamics with ideal gas microphysics</a> <br>
 Authors: _Alex Pandya, Elias R. Most, Frans Pretorius_
 
 In this project, we work out the first set of BDNK model parameters ("hydrodynamic frame") consistent with the BDNK "well-behavedness" constraints for a non-conformal fluid.  Specifically, we build upon the "gamma-law" ideal gas equation of state often employed in initial studies of neutron stars and other astrophysical fluid systems.
