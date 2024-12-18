@@ -63,15 +63,6 @@ To briefly summarize the main results, we found:
 
 **TODO: insert figures**
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
 ### Conservative finite volume method for BDNK theory
 
 Paper: <a href="https://arxiv.org/abs/2201.12317">Conservative finite volume scheme for first-order viscous relativistic hydrodynamics</a> <br>
