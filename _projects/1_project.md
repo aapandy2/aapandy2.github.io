@@ -74,6 +74,15 @@ The main results include a detailed description of the numerical scheme as well 
 
 **TODO: insert figures**
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/bdnk_kh.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+</div>
+<div class="caption">
+    Test demonstrating the performance of the BDNK finite volume scheme in the inviscid limit (decreasing viscosity from right to left).  The test shows a fluid jet with interfaces at top and bottom; these interfaces produce vortices as a result of the Kelvin-Helmholtz instability.
+</div>
+
 ### BDNK theory with more realistic microphysics
 
 Paper: <a href="https://arxiv.org/abs/2209.09265">Causal, stable first-order viscous relativistic hydrodynamics with ideal gas microphysics</a> <br>
