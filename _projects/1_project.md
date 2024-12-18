@@ -63,7 +63,7 @@ To briefly summarize the main results, we found:
 
 **TODO: insert figures**
 
-{% include video.liquid path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+{% include video.liquid path="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" %}
 
 ### Conservative finite volume method for BDNK theory
 
