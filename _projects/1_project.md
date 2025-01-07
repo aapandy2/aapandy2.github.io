@@ -16,7 +16,7 @@ Fluid models are typically made with two central ingredients, namely:
 1. conservation of energy and momentum
 2. consistency with the laws of thermodynamics.
 
-Incorporating these two features in their most basic form yields the Euler equations, which were written down by their namesake in the 1750's and assume a fluid which is constantly in thermodynamic equilibrium.  This turns out to mean that the fluid cannot generate entropy through processes like viscosity or heat conduction (which are present in real fluids).  It wasn't until the 1800's that the Navier-Stokes equations were put forth, which incorporated these effects.
+Incorporating these two features in their most basic form yields the <a href="https://en.wikipedia.org/wiki/Euler_equations_(fluid_dynamics)">Euler equations</a>, which were written down by their namesake in the 1750's and assume a fluid which is constantly in thermodynamic equilibrium.  This turns out to mean that the fluid cannot generate entropy through processes like viscosity or heat conduction (which are present in real fluids).  It wasn't until the 1800's that the <a href="https://en.wikipedia.org/wiki/Navier-Stokes_equations">Navier-Stokes equations</a> were put forth which incorporated these effects.
 
 A remarkable feature of modern physics is that the same recipe for constructing a fluid model works even for exotic materials like the matter composing neutron stars or quark-gluon plasma.  In these cases, however, one must add an additional ingredient: relativity.  The table below lists four fluid theories along with the ingredients in each.
 
@@ -45,7 +45,7 @@ Another set of "relativistic Navier-Stokes" equations was written down by Mülle
 
 ### BDNK theory
 
-In the early 2020's, a series of works put forward a theory which served to fix the issues with the theories of the 1950's.  This theory is now known as BDNK theory, which is a promising framework for modeling relativistic fluids with dissipation in astrophysical contexts, where shockwaves are prevalent and the Müller-Israel-Stewart theory is likely to run into problems.
+In the early 2020's, a series of works put forward a framework which served to fix the issues with the theories of the 1950's.  This framework is now known as <a href="https://arxiv.org/abs/2009.11388">BDNK theory</a>, which is a promising framework for modeling relativistic fluids with dissipation in astrophysical contexts, where shockwaves are prevalent and the Müller-Israel-Stewart theory is likely to run into problems.
 
 My work (done with collaborators Frans Pretorius and Elias Most) sought to be the first to solve the BDNK equations in "realistic" scenarios (that is, in cases where the equations cannot be solved with pen-and-paper methods -- cases where computer simulations are required).
 
