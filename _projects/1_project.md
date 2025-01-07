@@ -61,7 +61,14 @@ To briefly summarize the main results, we found:
 - BDNK theory agrees with Müller-Israel-Stewart theory (within the regime of validity)
 - BDNK theory shockwaves exist for appropriate choices of model parameters.
 
-**TODO: insert figures**
+<div class="row">                                                               
+    <div class="col-sm mt-3 mt-md-0">                                           
+        {% include video.liquid path="assets/video/bdnk_shock.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>                                                                      
+</div>                                                                          
+<div class="caption">                                                           
+    Numerical test showing the approach to a steady-state planar shockwave solution in BDNK theory.  Such solutions can be shown to exist for BDNK theory for arbitrarily fast-moving shocks under some technical constraints; the same cannot be said for shocks in MIS-type theories.
+</div> 
 
 ### Conservative finite volume method for BDNK theory
 
@@ -71,8 +78,6 @@ Authors: _Alex Pandya, Elias R. Most, Frans Pretorius_
 This work is the first to develop a numerical method for the BDNK equations which is suitably stable and accurate for supercomputer simulations of neutron stars and other astrophysical systems.  The method builds upon the conservative finite volume method commonly used for the relativistic Euler equations.
 
 The main results include a detailed description of the numerical scheme as well as its performance on a suite of challenging test problems.
-
-**TODO: insert figures**
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
