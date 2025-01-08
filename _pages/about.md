@@ -17,10 +17,12 @@ social: true # includes social icons at the bottom of the page
 
 ### About
 
-Hello and welcome to my site!  I'm Alex Pandya, and I'm a computational physicist by training.  Most recently, I was a postdoctoral researcher in astrophysics at Cornell; before that I did my PhD in Physics at Princeton.  For more on my background, please see my <a href="https://aapandy2.github.io/cv/">CV</a>.
+Hello, and welcome to my site!
 
-I've worked on a variety of projects whose topics range from the neuroscience of worm behavior to the interior structure of black holes and NBA roster construction.  For more details on these endeavors, please see my <a href="https://aapandy2.github.io/projects/">Projects</a> page.  
+I'm Alex Pandya, and I’m passionate about finding interdisciplinary solutions to challenging technical problems. Most recently, I was a postdoctoral researcher in the <a href="https://research.astro.cornell.edu/">Cornell Center for Astrophysics and Planetary Science</a>, and before that, I completed my PhD in Physics at <a href="https://phy.princeton.edu/">Princeton</a>.  For more on my background, please see my <a href="https://aapandy2.github.io/cv/">CV</a>.
+
+Over the years I’ve worked on <a href="https://aapandy2.github.io/projects/">projects</a> spanning a variety of topics, including: non-equilibrium relativistic fluid mechanics, the interior structure of black holes, NBA roster construction, light emission from astrophysical plasmas, and the neuroscience of worm behavior. If you find any of these things interesting, I'd love to chat!  Feel free to contact me by email or on LinkedIn.
 
 For a hyperlinked bibliography, please see my <a href="https://aapandy2.github.io/publications/">Publications</a> page.
 
-_Note: this site is currently under development; some links may not work!_
+_Note: this site is currently under development; some content hasn't been written yet!_
