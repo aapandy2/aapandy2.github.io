@@ -8,6 +8,8 @@ category: work
 related_publications: false
 ---
 
+**Authors**: Alex Pandya, Peter Johnson, Andrew Newman, Ryan Moruzzi, and Collin Litterell
+
 ### Background
 
 The NBA is widely considered to be the best basketball league in the world, and has grown over its seven-decade existence into a multibillion-dollar industry. Central to this industry is the problem of roster construction, as team performance depends critically on selecting productive players for all 15 roster spots.
@@ -20,7 +22,16 @@ Counting statistics data was collected from the official NBA site using an API a
 
 ### Exploratory data analysis
 
-We initially aimed to predict player transactions (whether a given player would be traded/waived), but this proved challenging due to weak correlations between statistics and transaction data (magnitude ~0.05). We found appreciable correlations with whether a player stayed in the NBA in the following season (NBA player retention), however.
+We initially aimed to predict player transactions (whether a given player would be traded/waived), but this proved challenging due to weak correlations between statistics and transaction data (magnitude ~0.05). We found appreciable correlations with whether a player stayed in the NBA in the following season (NBA player retention), however; see the plot below.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/nba_project_corr.webp" title="Correlation heatmap" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Visualization of the correlation matrix for the statistics and transaction data.
+</div>
 
 ### Modeling
 
@@ -39,13 +50,20 @@ Predicting NBA player retention in the following season is a classification prob
 | 9    | Decision Tree Classifier | 0.7917 | 0.9414 | 0.7962 | 0.4759 | 0.7871 | `criterion=gini, max_depth=5` |
 | 10   | Logistic Regression | 0.7370 | 0.8967 | 0.9430 | 0.6850 | 0.5310 | `C=10.0` |
 
+<br>
+
 ### Calibration
 
 The best-performing model was calibrated using Platt scaling on a separate calibration set derived from the training data (but distinct from the data originally used to train the classifier).  The uncalibrated model consistently underestimates the predicted probability of a player being retained; see the plot below.
 
-**TODO: include calibration plot**
-
-Similar plots for the calibrated model are shown below, evaluated on the unseen test set.
+<div class="row">                                                               
+    <div class="col-sm mt-3 mt-md-0">                                           
+        {% include figure.liquid loading="eager" path="assets/img/nba_project_uncalibrated.webp" title="Calibration curves for the uncalibrated model" class="img-fluid rounded z-depth-1" %}
+    </div>                                                                      
+</div>                                                                          
+<div class="caption">                                                           
+    Probability calibration curves for the un-calibrated XGBoost model chosen by cross-validation.
+</div>
 
 ### Final model performance
 
@@ -56,11 +74,20 @@ The best-performing model on the training set, XGBoost with SMOTE-augmented trai
 | Baseline    | 0.5000            | 0.7876    | 1.0000 | 0.0000 | 0.0000      | 0.2124             | 0.1678           |
 | Final model | 0.8044            | 0.9455    | 0.7780 | 0.4985 | 0.8308      | 0.1463             | 0.1132           |
 
+<br>
+
 The final chosen model significantly outperforms the baseline (which just always chooses the majority class, "Retained") in balanced accuracy, precision, NPV, specificity, and the uncalibrated/calibrated Brier scores.
 
 Calibration of the final model (obtained using Platt scaling) is shown in the plot below.
 
-**TODO: add plot**
+<div class="row">                                                               
+    <div class="col-sm mt-3 mt-md-0">                                           
+        {% include figure.liquid loading="eager" path="assets/img/nba_project_calibrated.webp" title="Calibration curve for the calibrated model" class="img-fluid rounded z-depth-1" %}
+    </div>                                                                      
+</div>                                                                          
+<div class="caption">                                                           
+    Probability calibration curve for the calibrated final XGBoost model.  Calibration is performed using Platt scaling using a portion of the training data set aside explicitly for this purpose.
+</div> 
 
 ### Interactive summary site
 
