@@ -93,7 +93,7 @@ Calibration of the final model (obtained using Platt scaling) is shown in the pl
 
 An interactive summary site was created using the Python `streamlit` library, and can be found <a href="https://nbaplayerretention.streamlit.app/">here</a>.
 
-## Future Directions
+### Future Directions
 
 To build on our existing model, some additional data that we could incorporate include:
 * contract terms,
