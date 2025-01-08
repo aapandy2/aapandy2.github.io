@@ -2,7 +2,7 @@
 layout: page
 title: Predicting NBA player retention
 description:
-img: assets/img/NBA_project_cover.webp
+img: assets/img/nba_project_cover.webp
 importance: 1
 category: work
 related_publications: false
