@@ -100,5 +100,8 @@ To build on our existing model, some additional data that we could incorporate i
 * injury information,
 * G-League data,
 * and salary cap and Collective Bargaining Agreement (CBA) data.
+
+<br>
+
 Additionally, we could expand our model of NBA players to incorporate other professional basketball leagues, for example the EuroLeague, and track movement across leagues. We could also expand the problem to focus on assigning probabilities that a player will be waived, traded, or not retained in the league at all, rather than pure classification.
 
