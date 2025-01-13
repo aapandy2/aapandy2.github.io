@@ -38,7 +38,7 @@ We also found the development of a "gravitational shock-wave", where an infallin
 
 ### Can gravity act like a fluid? 
 
-Paper: <a href="https://arxiv.org/abs/2206.08854"></a>Dynamics of a nonminimally coupled scalar field in asymptotically AdS_4 spacetime<br>
+Paper: <a href="https://arxiv.org/abs/2206.08854">Dynamics of a nonminimally coupled scalar field in asymptotically AdS_4 spacetime</a> <br>
 Authors: _Alex Pandya, Justin L. Ripley_
 
 GR and relativistic fluid mechanics share a similar mathematical structure: namely, they are both systems of coupled hyperbolic partial differential equations.  A direct result of this fact is that both frameworks can lead to the formation of singularities: in GR, they arise in the center of black holes; in fluid mechanics, they arise in droplet formation or in inviscid shocks.
