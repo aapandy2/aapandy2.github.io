@@ -33,6 +33,11 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Data Scientist
+      institution: Google
+      year: 2025-Present
+      description:
+        - Using data to help improve how people find information on the internet.
     - title: Postdoctoral Research Associate
       institution: Cornell University
       year: 2023-2024
