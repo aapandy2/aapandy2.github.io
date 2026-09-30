@@ -26,24 +26,11 @@ Each real SPX expiry is calibrated independently (one PDE solve per expiry, boot
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include video.liquid path="assets/plotly/localvol_slice_slider.html" class="img-fluid rounded z-depth-1" width="100%" height="950" %}
+    {% include video.liquid path="/assets/plotly/localvol_slice_slider.html" class="img-fluid rounded z-depth-1" width="100%" height="950" %}
   </div>
 </div>
 <div class="caption">
   Per-expiry calibration fit: implied volatility smile, price residual vs. half the real bid-ask spread, and the calibrated local volatility curve itself. Top row is the production (near-exact) fit; bottom row applies 10,000&times; more smoothing to the same data.
-</div>
-
-### The calibrated local volatility surface
-
-The actual product of this pipeline isn't a single smile &mdash; it's a full term structure of 26 independently-calibrated local vol curves. Shown here as a "ridge plot" (one raw, unsmoothed line per expiry) rather than a filled interpolated surface, since that's a more honest picture of what was actually calibrated: 26 separate fits, not one continuous function.
-
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include video.liquid path="assets/plotly/localvol_ridge_plot.html" class="img-fluid rounded z-depth-1" width="100%" height="700" %}
-  </div>
-</div>
-<div class="caption">
-  SPX local volatility term structure, 0.1&ndash;0.9 delta band, raw and unsmoothed. Roughness near the shortest maturities is genuine (short-dated options have the highest gamma/vega, so ordinary quote noise gets amplified), not a plotting artifact.
 </div>
 
 ### Verifying the surface is actually arbitrage-free
@@ -52,7 +39,7 @@ The actual product of this pipeline isn't a single smile &mdash; it's a full ter
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include video.liquid path="assets/plotly/localvol_arbitrage_proof.html" class="img-fluid rounded z-depth-1" width="100%" height="550" %}
+    {% include video.liquid path="/assets/plotly/localvol_arbitrage_proof.html" class="img-fluid rounded z-depth-1" width="100%" height="550" %}
   </div>
 </div>
 <div class="caption">
