@@ -26,7 +26,7 @@ Each real SPX expiry is calibrated independently (one PDE solve per expiry, boot
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include video.liquid path="/assets/plotly/localvol_slice_slider.html" class="rounded z-depth-1" width="100%" height="1550" %}
+    {% include video.liquid path="/assets/plotly/localvol_slice_slider.html" class="rounded z-depth-1" width="100%" height="800" %}
   </div>
 </div>
 <div class="caption">
@@ -39,7 +39,7 @@ Each real SPX expiry is calibrated independently (one PDE solve per expiry, boot
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include video.liquid path="/assets/plotly/localvol_arbitrage_proof.html" class="rounded z-depth-1" width="100%" height="800" %}
+    {% include video.liquid path="/assets/plotly/localvol_arbitrage_proof.html" class="rounded z-depth-1" width="100%" height="590" %}
   </div>
 </div>
 <div class="caption">
